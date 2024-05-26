@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button.text-primary-foreground {
+  color: #333;
+  font-weight: 500;
+}
+
+button.text-secondary-foreground {
+  font-weight: 500;
+}
+
+div.text-primary-foreground {
+  color: #333;
+}
