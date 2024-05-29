@@ -1,7 +1,7 @@
 const { Sequelize, DataTypes } = require("sequelize");
 
 const options = {
-  host: process.env.IS_DOCKER ? "host.docker.internal" : "localhost",
+  host: process.env.IS_DOCKER ? "db" : "localhost",
   port: 3306,
   dialect: "mysql",
   logging: false,
